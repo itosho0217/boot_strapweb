@@ -1,0 +1,117 @@
+header{
+	box-sizing: border-box;
+}
+
+/*mainここから*/
+.main-visual{
+	height: 760px;
+	width: 0 auto;
+	background-image: url(../img/mv01_pc.png);
+	text-align: center;
+	display: flex;
+ 	flex-direction: column;
+	justify-content: center;
+}
+
+.info{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: #7dbf41;
+	font-family: inherit;
+}
+
+.movie{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: #e60113;
+	font-family: inherit;
+}
+
+.infoto{
+	width: 500px;
+}
+
+aside{
+	justify-content: center;
+	text-align: center;
+	display: flex;
+}
+
+/*mainここまで*/
+
+
+
+/*キャラクター紹介*/
+.container{
+	text-align: center;
+}
+
+.text{
+	font-size: 60px;
+	font-weight: bold;
+	align-items:flex-end;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+.back-y{
+	background-color: white;
+	width: 800px;
+	height: 600px;
+	display: flex;
+	justify-content:space-around;
+}
+
+.back-y1{
+	background-color: #faf86d;
+	height: 300px;
+}
+
+.back-p1{
+	background-color: #fcdfeb;
+	height: 150px;
+}
+
+.back-y2{
+	background-color: #faf86d;
+	height: 150px;
+}
+
+.back-p2{
+	background-color: #fcdfeb;
+	height: 150px;
+}
+
+.back-y3{
+	background-color: #faf86d;
+	height: 150px;
+	flex-direction:column-reverse;
+	justify-content:space-between;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+.back-p3{
+	background-color: #fcdfeb;
+	height: auto;
+}
+
+button{
+	background-color: #5cb9da;
+	width: 300px;
+}
+
+.back img{
+	width: 1110px;
+}
+
+
+
