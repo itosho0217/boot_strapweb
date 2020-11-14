@@ -1,19 +1,86 @@
-header{
-	box-sizing: border-box;
-	justify-content: center;
-	margin-top: 50px;
+/*headerここから*/
+
+.top{
+	background-image: url(../img/mv01_pc.png);
+	background-repeat: no-repeat;
+
 }
 
-.icon{
-	padding-left: 100px;
+header{
+	width: 80%;
+	/*margin: 0 auto;*/
+	background-color: white;
+	border-radius:12px;
+	font-size: 15px;
+	position: fixed;
+	left: 25%;
+	top: 30%;
+	margin: -200px 0px 0px -200px;
+	
+}
 
+
+/*.nav-item{
+	text-align: right;
+}*/
+
+.global-nav{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/*align-items: center;*/
+	padding: center;
+}
+
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+.icon img {
+  height: 60px;
+}
+
+/*.header-right{
+  display: flex;
+  align-items: center;
+  margin-right: 80px; 
+}
+
+.header-right li:first-child{
+  margin-right: 20px;
+}
+*/
+
+
+.nav-link{
+	color:black;
+	font-weight: bold;
+
+}
+
+header .btn{
+	border-radius: 20px;
+    padding: 8px 28px;
+}
+
+/*headerここまで*/
+
+.col-4{
+	text-align: right;
+	display: flex;
+	float: right;
 }
 
 /*mainここから*/
 .main-visual{
 	height: 760px;
 	width: 0 auto;
-	background-image: url(../img/mv01_pc.png);
+/*	background-image: url(../img/mv01_pc.png);*/
 	text-align: center;
 	display: flex;
  	flex-direction: column;
@@ -168,6 +235,22 @@ button{
 	color: #464646;
 }
 
+<<<<<<< HEAD
+/*footer*/
+footer{
+	background-color: #202020;
+    padding: 30px 0;
+    position: relative;
+}
+
+.fa-twitter{
+	color: white;
+}
+
+.fa-instagram {
+	color: white;
+}
+=======
 .card{
 	margin-left: 50px;
 	display: flex;
@@ -183,3 +266,4 @@ button{
 	height: auto;
 }
 /*ON AIRここまで*/
+>>>>>>> 347e287e377755ef60a079535e8b9a6bb2f6c376
