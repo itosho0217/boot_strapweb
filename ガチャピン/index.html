@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+  <script src="https://kit.fontawesome.com/eadb05d339.js" crossorigin="anonymous"></script>
+
   <title>ガチャピン・ムック・パクリ</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,21 +13,45 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
-  <!-- header -->
-    <header class="fixed">
-    <!-- header left -->
-      <div class="icon">
-    <!-- header right -->
-          <div class='row'>
-            <a href="https://www.gachapin-mukku.com/"><img src="img/logo.png"></a>
+  <!-- headerここから -->
+<div class="top">
+<header>
+  <!---header left--->
+    <a class="icon" href="index.html"><img src="img/logo.png" alt="GACHAPIN×MUKKU"></a>
 
-            <div class="col-4"><a href="https://www.gachapin-mukku.com/character/">キャラクター紹介</a></div>
-            <div class="col-4"><a href="https://www.gachapin-mukku.com/onair/">番組紹介</a></div>
-            <div class="col-4"><a href="https://www.gachapin-mukku.com/info/">お知らせ</div>
-            <div class="col-4"><button type=“button” class=“btn btn-primary rounded-pill”>お問い合わせ</button>
+    <ul class="nav justify-content-end">  <!---new--->
+      <li class="nav-item">
+    <a class="nav-link character" href="https://www.gachapin-mukku.com/character/">キャラクター紹介</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link onair" href="https://www.gachapin-mukku.com/onair/">番組紹介</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link inform" href="https://www.gachapin-mukku.com/info/">お知らせ</a>
+  </li>
+  <li class="nav-item">
+    <a href="mailto:gacha-mukku@info.fujitv.co.jp" class="btn btn-dark">お問い合わせ</a>
+  </li>
+</ul>
 
-    </header>
+
+
+<!--     <nav>
+      <ul class="global-nav">
+        <li class="menu" id="current"><a href="https://www.gachapin-mukku.com/character/" class="link">キャラクター紹介</a></li>
+
+        <li class="menu"><a href="https://www.gachapin-mukku.com/onair/" class="link">番組紹介</a></li>
+        <li class="menu"><a href="https://www.gachapin-mukku.com/info/" class="link">お知らせ</a></li>
+
+        <button type="button" class="btn btn-success"><a href="mailto:gacha-mukku@info.fujitv.co.jp" class="link">お問い合わせ</a></button>
+      </ul>
+    </nav>
+  </ul> -->
+
+  </header>
+
   <!-- header ここまで -->
+
 
   <!-- mainここから -->
   <main class='main-visual'></main>
@@ -69,6 +95,7 @@
        <span>ガチャピン・ムックと仲間たちの
           <br>生い立ちから特技などをご紹介！
         </span></div>
+        </div>
       <div class="back-p3">
         <img src="img/mini_ga_mu.png">
         <img src="img/mini_cony.png">
@@ -83,7 +110,7 @@
   </div>
       </div>
       </div>
-    </div>
+
 <!-- キャラクターここまで -->
 
     <!-- ON AIRここから -->
@@ -95,11 +122,17 @@
 
 
 <!-- footer -->
+  <footer>
+<i class="fas fa-heart fa-5x red_heart"></i>
 
   <!-- footer 左側 -->
+<i class="fab fa-twitter fa-2x"></i>
+<i class="fab fa-instagram fa-2x"></i>
   <!-- footer 右側 -->
 
 <!-- footer ここまで -->
+
+  </footer>
     
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
