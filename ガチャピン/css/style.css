@@ -1,5 +1,12 @@
 header{
 	box-sizing: border-box;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.icon{
+	padding-left: 100px;
+
 }
 
 /*mainここから*/
