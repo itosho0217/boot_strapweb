@@ -72,6 +72,7 @@ h3{
 .back-y1{
 	background-color: #faf86d;
 	height: 300px;
+	text-align: center;
 }
 
 .back-p1{
@@ -97,11 +98,13 @@ h3{
 	font-size: 30px;
 	font-weight: bold;
 	padding-top: 30px;
+	text-align: center;
 }
 
 .back-p3{
 	background-color: #fcdfeb;
 	height: auto;
+	text-align: center;
 }
 
 button{
@@ -110,8 +113,66 @@ button{
 }
 
 .back img{
-	width: 1110px;
+	width: 0 auto;
 }
 
 
+/*swiperここから*/
+.swiper-container{
+  width: 600px;
+}
 
+.swiper-slide{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img{
+  width: 300px;
+  height: 300px;
+}
+/*swiperここまで*/
+
+
+/*ON AIRここから*/
+.background{
+	background-image: url(../img/back_onair.png);
+	height: 800px;
+	width: auto;
+}
+
+.onair{
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	align-items:flex-end;
+	text-align: center;
+}
+
+.bangumi{
+	color: white;
+	font-size: 20px;
+}
+
+.card-body{
+	font-size: 20px;
+	color: #464646;
+}
+
+.card{
+	margin-left: 50px;
+	display: flex;
+}
+
+.oya{
+	display: flex;
+	justify-content: space-around;
+}
+
+.gacha img{
+	width: 230px;
+	height: auto;
+}
+/*ON AIRここまで*/
