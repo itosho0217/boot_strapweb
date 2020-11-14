@@ -8,7 +8,6 @@
 
 header{
 	width: 80%;
-	/*margin: 0 auto;*/
 	background-color: white;
 	border-radius:12px;
 	font-size: 15px;
@@ -16,20 +15,15 @@ header{
 	left: 25%;
 	top: 30%;
 	margin: -200px 0px 0px -200px;
-	
 }
 
 
-/*.nav-item{
-	text-align: right;
-}*/
 
 .global-nav{
 
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	/*align-items: center;*/
 	padding: center;
 }
 
@@ -45,23 +39,12 @@ header{
   height: 60px;
 }
 
-/*.header-right{
-  display: flex;
-  align-items: center;
-  margin-right: 80px; 
+.nav{
+	display: flex;
+	justify-content: center;
+	text-align: center;
 }
 
-.header-right li:first-child{
-  margin-right: 20px;
-}
-*/
-
-
-.nav-link{
-	color:black;
-	font-weight: bold;
-
-}
 
 header .btn{
 	border-radius: 20px;
@@ -235,22 +218,7 @@ button{
 	color: #464646;
 }
 
-<<<<<<< HEAD
-/*footer*/
-footer{
-	background-color: #202020;
-    padding: 30px 0;
-    position: relative;
-}
 
-.fa-twitter{
-	color: white;
-}
-
-.fa-instagram {
-	color: white;
-}
-=======
 .card{
 	margin-left: 50px;
 	display: flex;
@@ -266,4 +234,21 @@ footer{
 	height: auto;
 }
 /*ON AIRここまで*/
->>>>>>> 347e287e377755ef60a079535e8b9a6bb2f6c376
+
+
+/*footer*/
+footer{
+	background-color: #202020;
+    padding: 30px 0;
+    position: relative;
+}
+
+.fa-twitter{
+	color: white;
+}
+
+.fa-instagram {
+	color: white;
+}
+
+/*footerここまで*/
