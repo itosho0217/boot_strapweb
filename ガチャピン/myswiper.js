@@ -54,9 +54,9 @@ $(function() {
                           .attr('alt',title).attr('width',thumbnail.width)
                           .attr('height',thumbnail.height);
       let li = $('<li>');
-      // anchor.append(img);
-      // li.append(anchor);
-      // li.append($('<p>').text(title));
+      anchor.append(img);
+      li.append(anchor);
+      li.append($('<p>').text(title));
 
 
       let iframe = $('<iframe>')
@@ -70,41 +70,6 @@ $(function() {
       $('#result').append(li);
     }
 
-
-
-    
-
-    // //要素を組み立てる
-    // let img = document.createElement('img');
-    // let anchor = document.createElement('a');
-    // let text = document.createElement('p');
-    // let li = document.createElement('li');
-    // let iframe = document.createElement('iframe');
-
-    // iframe.width = thumbnail.width;
-    // iframe.height = thumbnail.height;
-    // iframe.src = 'https://www.youtube.com/embed/' + videoId;
-    // iframe.frameborder = 0;
-    // iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-    // iframe.allowFullscreen = true;
-
-    // // <iframe width="560" height="315" src="https://www.youtube.com/embed/gVnqrWtS6TQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    // img.src = thumbnail.url;
-    // img.alt = title;
-    // img.width = thumbnail.width;
-    // img.height = thumbnail.height;
-
-    // anchor.href = 'https://www.youtube.com/watch?v=' + videoId;
-
-    // text.textContent = title;
-
-    // //画面に表示
-    // anchor.appendChild(img);
-    // li.appendChild(anchor);
-    // li.appendChild(text);
-    // li.appendChild(iframe);
-    // document.getElementById('result').appendChild(li);
   }
 
 });
