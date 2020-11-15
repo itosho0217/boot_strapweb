@@ -7,31 +7,35 @@
 }
 
 header{
-	width: 80%;
+	width: 1100px;
 	background-color: white;
 	border-radius:12px;
 	font-size: 15px;
 	position: fixed;
-	left: 25%;
-	top: 30%;
+	left: 26%;
+    top: 28%;
 	margin: -200px 0px 0px -200px;
+	z-index: 10;
 }
 
-
-
-.global-nav{
-
+.nav {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: center;
+	justify-content:space-around;
+	text-align: center;
 }
 
+ul{
+	display: flex;
+}
 
 .icon {
+<<<<<<< HEAD
+  margin-left: 40px;
+=======
   display: flex;
   align-items: center;
   margin-left: 0px;
+>>>>>>> cc5a934734de12115ce4b89e922688b64e551758
   padding-top: 20px;
 }
 
@@ -39,6 +43,8 @@ header{
   height: 60px;
 }
 
+<<<<<<< HEAD
+=======
 .nav{
 	display: flex;
 	justify-content: center;
@@ -52,6 +58,7 @@ header{
 	font-weight: bold;
 }
 
+>>>>>>> cc5a934734de12115ce4b89e922688b64e551758
 
 header .btn{
 	border-radius: 20px;
@@ -60,17 +67,11 @@ header .btn{
 
 /*headerここまで*/
 
-.col-4{
-	text-align: right;
-	display: flex;
-	float: right;
-}
-
 /*mainここから*/
 .main-visual{
 	height: 760px;
 	width: 0 auto;
-/*	background-image: url(../img/mv01_pc.png);*/
+	background-image: url(../img/mv01_pc.png);
 	text-align: center;
 	display: flex;
  	flex-direction: column;
@@ -101,6 +102,11 @@ aside{
 	justify-content: center;
 	text-align: center;
 	display: flex;
+}
+
+.result{
+	display: flex;
+	text-align: center;
 }
 
 /*mainここまで*/
@@ -204,7 +210,7 @@ button{
 .background{
 	background-image: url(../img/back_onair.png);
 	height: 800px;
-	width: auto;
+	width: 0 auto;
 }
 
 .onair{
@@ -240,8 +246,99 @@ button{
 	width: 230px;
 	height: auto;
 }
+
+#result{
+	justify-content: center;
+}
 /*ON AIRここまで*/
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.back-green{
+	background-color: 
+}
+
+=======
+/*!!!!!!!
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <ul class="float-left nav sns-links">
+          <li><a href="https://twitter.com/mukkuofficial" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/gachapin_official/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <span class="copyright text-white">Copyright &copy; ガチャムク</span>
+      </div>
+    </div>
+  </div>
+  <div class="pagetop position-absolute">
+    <a href="#" class=""><img src="/assets/img/pagetop.png"></a>
+  </div>
+</footer>*/
+/*
+*
+ * footer
+ */
+ /*
+footer {
+  background-color: #202020;
+  padding: 50px 0;
+  position: relative;
+}
+
+footer li > a:hover,
+footer li > a {
+  color: #fff;
+}
+
+.copyright {
+  letter-spacing: 0.2em;
+}
+
+footer .sns-links {
+  position: absolute;
+}
+
+footer .sns-links li {
+  margin-right: 1.5em;
+
+}
+
+footer .sns-links li a {
+  font-size: 1.2em;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+footer .sns-links li a:hover {
+  opacity: .5;
+}
+footer .sns-links li a.aboutlink {
+  font-size: 1em;
+  display: block;
+  padding: 0.2em 0;
+}
+
+footer .pagetop {
+  right: 40px;
+  bottom: 50px;
+  width: 221px;
+}
+
+footer .pagetop img {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+footer .pagetop a:hover img {
+  margin-bottom: 10px;
+}
+*/
+
+>>>>>>> cc5a934734de12115ce4b89e922688b64e551758
+>>>>>>> c169095818870ac35f5804f8e20dd58b5a0bd699
 
 /*footer*/
 footer{
