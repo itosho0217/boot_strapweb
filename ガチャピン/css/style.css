@@ -7,42 +7,34 @@
 }
 
 header{
-	width: 80%;
+	width: 1100px;
 	background-color: white;
 	border-radius:12px;
 	font-size: 15px;
 	position: fixed;
-	left: 25%;
-	top: 30%;
+	left: 26%;
+    top: 28%;
 	margin: -200px 0px 0px -200px;
+	z-index: 10;
 }
 
-
-
-.global-nav{
-
+.nav {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: center;
+	justify-content:space-around;
+	text-align: center;
 }
 
+ul{
+	display: flex;
+}
 
 .icon {
-  display: flex;
-  align-items: center;
   margin-left: 40px;
   padding-top: 20px;
 }
 
 .icon img {
   height: 60px;
-}
-
-.nav{
-	display: flex;
-	justify-content: center;
-	text-align: center;
 }
 
 
@@ -53,17 +45,11 @@ header .btn{
 
 /*headerここまで*/
 
-.col-4{
-	text-align: right;
-	display: flex;
-	float: right;
-}
-
 /*mainここから*/
 .main-visual{
 	height: 760px;
 	width: 0 auto;
-/*	background-image: url(../img/mv01_pc.png);*/
+	background-image: url(../img/mv01_pc.png);
 	text-align: center;
 	display: flex;
  	flex-direction: column;
@@ -94,6 +80,11 @@ aside{
 	justify-content: center;
 	text-align: center;
 	display: flex;
+}
+
+.result{
+	display: flex;
+	text-align: center;
 }
 
 /*mainここまで*/
@@ -197,7 +188,7 @@ button{
 .background{
 	background-image: url(../img/back_onair.png);
 	height: 800px;
-	width: auto;
+	width: 0 auto;
 }
 
 .onair{
@@ -233,7 +224,15 @@ button{
 	width: 230px;
 	height: auto;
 }
+
+#result{
+	justify-content: center;
+}
 /*ON AIRここまで*/
+
+.back-green{
+	background-color: 
+}
 
 
 /*footer*/
