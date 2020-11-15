@@ -242,83 +242,6 @@ button{
 }
 /*ON AIRここまで*/
 
-/*!!!!!!!
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <ul class="float-left nav sns-links">
-          <li><a href="https://twitter.com/mukkuofficial" target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="https://www.instagram.com/gachapin_official/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-        <span class="copyright text-white">Copyright &copy; ガチャムク</span>
-      </div>
-    </div>
-  </div>
-  <div class="pagetop position-absolute">
-    <a href="#" class=""><img src="/assets/img/pagetop.png"></a>
-  </div>
-</footer>*/
-/*
-*
- * footer
- */
- /*
-footer {
-  background-color: #202020;
-  padding: 50px 0;
-  position: relative;
-}
-
-footer li > a:hover,
-footer li > a {
-  color: #fff;
-}
-
-.copyright {
-  letter-spacing: 0.2em;
-}
-
-footer .sns-links {
-  position: absolute;
-}
-
-footer .sns-links li {
-  margin-right: 1.5em;
-
-}
-
-footer .sns-links li a {
-  font-size: 1.2em;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-footer .sns-links li a:hover {
-  opacity: .5;
-}
-footer .sns-links li a.aboutlink {
-  font-size: 1em;
-  display: block;
-  padding: 0.2em 0;
-}
-
-footer .pagetop {
-  right: 40px;
-  bottom: 50px;
-  width: 221px;
-}
-
-footer .pagetop img {
-  width: 100%;
-  transition: all 0.3s;
-}
-
-footer .pagetop a:hover img {
-  margin-bottom: 10px;
-}
-*/
-
 
 /*footer*/
 footer{
@@ -333,6 +256,10 @@ footer{
 
 .fa-instagram {
 	color: white;
+}
+
+.text-center{
+	text-align: center;
 }
 
 .copyright {
