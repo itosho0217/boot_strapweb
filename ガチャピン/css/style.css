@@ -29,13 +29,10 @@ ul{
 }
 
 .icon {
-<<<<<<< HEAD
   margin-left: 40px;
-=======
   display: flex;
   align-items: center;
   margin-left: 0px;
->>>>>>> cc5a934734de12115ce4b89e922688b64e551758
   padding-top: 20px;
 }
 
@@ -43,8 +40,6 @@ ul{
   height: 60px;
 }
 
-<<<<<<< HEAD
-=======
 .nav{
 	display: flex;
 	justify-content: center;
@@ -58,7 +53,6 @@ ul{
 	font-weight: bold;
 }
 
->>>>>>> cc5a934734de12115ce4b89e922688b64e551758
 
 header .btn{
 	border-radius: 20px;
@@ -252,9 +246,6 @@ button{
 }
 /*ON AIRここまで*/
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .back-green{
 	background-color: 
 }
@@ -336,9 +327,6 @@ footer .pagetop a:hover img {
   margin-bottom: 10px;
 }
 */
-
->>>>>>> cc5a934734de12115ce4b89e922688b64e551758
->>>>>>> c169095818870ac35f5804f8e20dd58b5a0bd699
 
 /*footer*/
 footer{
