@@ -33,13 +33,20 @@ ul{
   display: flex;
   align-items: center;
   margin-left: 0px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0995567bf162e18abfd0d2d8266681d59f4133d3
   padding-top: 20px;
 }
 
 .icon img {
   height: 60px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0995567bf162e18abfd0d2d8266681d59f4133d3
 .nav{
 	display: flex;
 	justify-content: center;
@@ -53,6 +60,10 @@ ul{
 	font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0995567bf162e18abfd0d2d8266681d59f4133d3
 header .btn{
 	border-radius: 20px;
     padding: 8px 28px;
@@ -245,12 +256,19 @@ button{
 }
 /*ON AIRここまで*/
 
+<<<<<<< HEAD
 
 .back-green{
 	background-color: #a1cc39;
 	height: 300px;
 
 }
+=======
+.back-green{
+	background-color: 
+}
+
+>>>>>>> 0995567bf162e18abfd0d2d8266681d59f4133d3
 
 
 /*footer*/
@@ -268,6 +286,10 @@ button{
 	color: white;
 }
 
+.text-center{
+	text-align: center;
+}
+
 .copyright {
 	color: white;
 	justify-content: center;
@@ -280,6 +302,14 @@ footer .snslinks{
 footer .snslinks li{
 	margin-right: 50px;
 }*/
+
+/*footer右側*/
+
+#t-scroll {
+    position:fixed;
+    bottom:30px;
+    right:20px;
+}
 
 
 /*footerここまで*/
